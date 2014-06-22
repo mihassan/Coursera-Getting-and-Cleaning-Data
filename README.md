@@ -8,7 +8,7 @@ This file describes how run_analysis.R script works. Follow the procedure descri
 * There will be two data files generated in the current working directory:
   - merged_data.txt: it contains activity, subject, only the mean() and std() measrements.
   - tidy_data.txt: it contains the final tidy data in the long format with the dimension 11881*8.
-* To read the data, use data <- read.table("tidy_data.txt") in RStudio.
+* To read the data, use data <- read.table("tidy_data.txt", header=TRUE) in RStudio.
 
 Note on the tidy data format
 ----------------------------
